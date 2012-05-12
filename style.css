@@ -213,6 +213,7 @@ article {
 article h3 {
   border-left: solid 5px;
   padding: 3px 0 0 8px;
+  margin: 40px 0 10px;
 }
 
 article ol,
