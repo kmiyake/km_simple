@@ -1,0 +1,313 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Volkhov);
+/*   
+ *   Theme Name: KM Simple
+ *   Theme URI: 
+ *   Description: minimal design
+ *   Author: Kota Miyake
+ *   Author URI: http://www.miyapong.com/
+ *   Template: 
+ *   Version: 0.1
+ */
+
+/*
+ * Reset Start
+ *
+ * http://meyerweb.com/eric/tools/css/reset/ 
+ * v2.0 | 20110126
+ * License: none (public domain)
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset End */
+
+/*
+ * Basic Start
+ */
+html { font-size: 62.5%; }
+
+body {
+  background-color: #eee;
+  color: #666;
+  font-family: "ヒラギノ角ゴ Pro W3",Helvetica,Arial,Sans-Serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  color: #000;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+blockquote,
+li,
+p,
+pre,
+q,
+strong {
+  line-height: 1.6;
+}
+
+dl,
+ol,
+p,
+pre,
+ul {
+  margin-bottom: 15px;
+}
+
+a { 
+  color: #4183C4;
+  text-decoration: none;
+}
+
+a:hover { 
+  text-decoration: underline;
+}
+
+blockquote,
+pre {
+  background-color: #e9e9e9;
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding: 10px 15px;
+}
+
+blockquote {
+  border-top: solid 1px #ccc;
+  border-bottom: solid 1px #ccc;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+pre { 
+  overflow: auto;
+}
+
+img {
+  background-color: #fff;
+  border: solid 1px #ccc;
+  padding: 4px;
+}
+
+.clearfix { 
+  clear: both;
+}
+
+/* Basic End */
+
+/* Wrapper Start */
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Wrapper End */
+
+/* Header Start */
+#page-header {
+  width: 940px;
+  padding: 10px 10px 10px;
+  border-bottom: solid 2px #ccc;
+  margin: 10px 0;
+}
+
+#site-logo a {
+  color: #000;
+  font-family: "Volkhov","Georgia",serif;
+  font-size: 18px; 
+  font-size: 1.8rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#site-logo a:hover {
+  color: #999;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+/* Header End */
+
+/* Contents Start */
+#contents {
+  width: 620px;
+  float: left;
+  margin: 0 20px 10px 0;
+  padding: 10px;
+}
+
+article {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+article h3 {
+  border-left: solid 5px;
+  padding-left: 8px;
+  margin: 30px 0 10px;
+}
+
+article ol,
+article ul {
+  margin-left: 25px;
+}
+
+article ol {
+  list-style-type: decimal;
+}
+
+article ul {
+  list-style-type: disc;
+}
+
+.entries {
+  margin-bottom: 48px;
+}
+
+.entry {
+  margin-bottom: 20px;
+}
+
+.entry-header {
+  margin-bottom: 20px;
+}
+
+.entry-title {
+  font-size: 20px;
+  font-size: 2.0rem;
+}
+
+.entry-title a {
+  color: #333;
+  text-decoration: none;
+}
+
+.entry-title a:hover {
+  color: #999;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.category,
+.posted-on,
+.tags {
+  color: #999;
+  font-family: 'Georgia', serif;
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding-left: 1px;
+}
+
+.entry-footer {
+  clear: both;
+}
+
+.wp-post-image {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+.read-more {
+  padding-left: 5px;
+}
+
+.nav-next {
+  float: right;
+}
+
+.nav-previous {
+  float: left;
+}
+
+/* Contents End */
+
+/* Side Start */
+#side {
+  width: 268px;
+  float: right;
+  padding: 15px;
+}
+
+#side h3 {
+  font-family: 'Georgia', serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+/* Side End */
+
+/* Footer Start */
+#page-footer {
+  font-family: "Volkhov","Georgia",serif;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+/* Footer End */
