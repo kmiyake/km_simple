@@ -110,6 +110,7 @@ strong {
   line-height: 1.6;
 }
 
+h3,
 dl,
 ol,
 p,
@@ -211,13 +212,12 @@ article {
 
 article h3 {
   border-left: solid 5px;
-  padding-left: 8px;
-  margin: 30px 0 10px;
+  padding: 3px 0 0 8px;
 }
 
 article ol,
 article ul {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 article ol {
