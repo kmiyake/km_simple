@@ -280,6 +280,16 @@ article ul {
   padding-left: 5px;
 }
 
+.nav-below {
+  margin-bottom: 40px;
+}
+
+.nav-below:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 .nav-next {
   float: right;
 }

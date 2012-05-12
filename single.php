@@ -26,6 +26,7 @@
           <span class="nav-previous"><?php previous_post_link('%link', '« Previous'); ?></span>
           <span class="nav-next"><?php next_post_link('%link', 'Next »'); ?></span>
         </div><!-- /.nav-below -->
+        <?php comments_template(); ?><!-- Comments -->
     <?php else : ?>
       <h2>Not Found</h2>
     <?php endif ?>
