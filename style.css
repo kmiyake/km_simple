@@ -316,6 +316,11 @@ article ul {
   font-size: 18px;
   font-size: 1.8rem;
 }
+
+#searchform {
+  margin-bottom: 15px;
+}
+
 /* Side End */
 
 /* Footer Start */
