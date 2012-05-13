@@ -172,10 +172,22 @@ img {
 
 /* Header Start */
 #page-header {
-  width: 940px;
-  padding: 10px 10px 10px;
   border-bottom: solid 2px #ccc;
   margin: 10px 0;
+  padding: 10px 10px 10px;
+  position: relative;
+  width: 940px;
+}
+
+#page-header:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+#site-logo {
+  float: left;
+  position: relative;
 }
 
 #site-logo a {
@@ -183,11 +195,34 @@ img {
   font-family: "Volkhov","Georgia",serif;
   font-size: 18px; 
   font-size: 1.8rem;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
 }
 
 #site-logo a:hover {
+  color: #999;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+.external-link {
+  position: absolute;
+  top: .8em;
+  right: 0;
+}
+
+.facebook {
+  padding-right: 10px;
+}
+
+.facebook a {
+  color: #000;
+  font-family: "Volkhov","Georgia",serif;
+  text-decoration: none;
+}
+
+.facebook a:hover {
   color: #999;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;

@@ -28,4 +28,9 @@
           <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
         <?php endif; ?>
         </div>
+        <ul class="external-link">
+          <li class="facebook">
+            <a href="https://www.facebook.com/miyake.kota" target="_blank">Facebook</a>
+          </li>
+        </ul>
       </header><!-- /header -->
