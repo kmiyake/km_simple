@@ -212,17 +212,18 @@ img {
   right: 0;
 }
 
-.facebook {
+.external-link li {
+  float: left;
   padding-right: 10px;
 }
 
-.facebook a {
+.external-link a {
   color: #000;
   font-family: "Volkhov","Georgia",serif;
   text-decoration: none;
 }
 
-.facebook a:hover {
+.external-link a:hover {
   color: #999;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;

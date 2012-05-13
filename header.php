@@ -32,5 +32,8 @@
           <li class="facebook">
             <a href="https://www.facebook.com/miyake.kota" target="_blank">Facebook</a>
           </li>
+          <li class="rss">
+            <a href="<?php bloginfo('rss2_url'); ?>">RSS</a>
+          </li>
         </ul>
       </header><!-- /header -->
