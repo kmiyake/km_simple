@@ -78,7 +78,7 @@ table {
 html { font-size: 62.5%; }
 
 body {
-  background-color: #eee;
+  background: url(images/bg.png);
   color: #666;
   font-family: "ヒラギノ角ゴ Pro W3",Helvetica,Arial,Sans-Serif;
   font-size: 14px;
@@ -172,7 +172,7 @@ img {
 
 /* Header Start */
 #page-header {
-  border-bottom: solid 2px #ccc;
+  border-bottom: solid 2px #555;
   margin: 10px 0;
   padding: 10px 10px 10px;
   position: relative;
@@ -200,7 +200,7 @@ img {
 }
 
 #site-logo a:hover {
-  color: #999;
+  color: #666;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   transition: color 0.2s;
@@ -224,7 +224,7 @@ img {
 }
 
 .external-link a:hover {
-  color: #999;
+  color: #666;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   transition: color 0.2s;
@@ -248,7 +248,7 @@ article {
 article h3 {
   border-left: solid 5px;
   padding: 3px 0 0 8px;
-  margin: 40px 0 10px;
+  margin: 40px 0 15px;
 }
 
 article ol,
@@ -287,7 +287,7 @@ article ul {
 }
 
 .entry-title a:hover {
-  color: #999;
+  color: #4183C4;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   transition: color 0.2s;
@@ -296,7 +296,7 @@ article ul {
 .category,
 .posted-on,
 .tags {
-  color: #999;
+  color: #666;
   font-family: 'Georgia', serif;
   font-size: 14px;
   font-size: 1.4rem;
