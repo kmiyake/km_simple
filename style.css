@@ -90,6 +90,7 @@ h2,
 h3,
 h4,
 h5,
+b,
 strong {
   color: #000;
   font-weight: bold;
@@ -136,8 +137,9 @@ pre {
 }
 
 blockquote {
-  border-top: solid 1px #ccc;
-  border-bottom: solid 1px #ccc;
+  background: url(images/blockquote.gif) no-repeat 2% 6% #fff;
+  border-top: solid 1px #333;
+  border-bottom: solid 1px #333;
   font-style: italic;
   margin-bottom: 15px;
 }
@@ -336,6 +338,10 @@ article ul {
 
 .fin {
   margin: 40px 0;
+}
+
+.origin {
+  text-align: right;
 }
 
 /* Contents End */
